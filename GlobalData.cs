@@ -1,4 +1,12 @@
-﻿using System.Collections;
+﻿////////////////////////////////////////////////////////////////////////////////////////////////////////
+//FileName: GlobalData.cs
+//Author : Zijie Yang
+//Last Modified On : 30/10/2020
+//Copy Rights : Copyright 2020
+//Email : zijiey@student.unimelb.edu.au
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,8 +14,6 @@ public class GlobalData : MonoBehaviour {
     private static GlobalData dataStorage;
     public bool testMode = false;
     public bool bleDebug = false;
-
-    // Start is called before the first frame update
 
     void Awake () {
         FindObjectOfType<PathCreater> ().lineRenderer.positionCount = 0;
