@@ -43,6 +43,7 @@ public class ReadData : MonoBehaviour {
 
     }
 
+    //read data from packets
     public void ProcessData (byte[] receivedData) {
         if (receivedData[3] == 0x45 &&
             receivedData[4] == 0x4F &&
@@ -88,6 +89,7 @@ public class ReadData : MonoBehaviour {
     }
 }
 
+//data format
 [System.Serializable]
 public class BallData {
     public float speed;

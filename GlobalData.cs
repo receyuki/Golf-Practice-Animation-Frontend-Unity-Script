@@ -10,6 +10,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// data storage
 public class GlobalData : MonoBehaviour {
     private static GlobalData dataStorage;
     public bool testMode = false;

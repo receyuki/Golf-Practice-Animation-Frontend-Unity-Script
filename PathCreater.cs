@@ -15,6 +15,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
+//crate ball path
 public class PathCreater : MonoBehaviour {
     public LineRenderer lineRenderer;
     public List<Vector3> points = new List<Vector3> ();

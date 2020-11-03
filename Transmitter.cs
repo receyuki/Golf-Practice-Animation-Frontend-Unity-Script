@@ -4,6 +4,9 @@
 //Last Modified On : 30/10/2020
 //Copy Rights : Copyright 2020
 //Email : zijiey@student.unimelb.edu.au
+//
+//Modified from https://assetstore.unity.com/packages/tools/network/bluetooth-le-for-ios-tvos-and-android-26661
+//
 ////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 using UnityEngine;
